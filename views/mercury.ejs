@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <%- include('partials/head.ejs') %>
+
+<body>
+    <h1>The Solar System</h1>
+    <%- include('partials/nav.ejs') %>
+    <h2>Planet Mercury</h2>
+    <img src="<%=   planetMercury.image  %>"> <br>
+    Planet Description: <%=   planetMercury.description  %> <br><br>
+    Distance From Sun: <%=   planetMercury.distanceFromSun  %> <br>
+    Year Length: <%=   planetMercury.yearLength  %> <br>
+    Radius: <%=   planetMercury.radius  %> <br>
+    One Earth Day Equivalent: <%=   planetMercury.oneEarthDay  %> <br>
+    Total Moons: <%=   planetMercury.moons  %> <br>
+    Website Link: <%=   planetMercury.websiteLink  %> <br>
+</body>
+<br><%- include('partials/footer.ejs') %>
+</html>
